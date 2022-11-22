@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(194, 0, 0);
+}
+
+
+.lab{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menu li a{
+    display: block;
+    padding:15px 20px;
+
+}
+
+
+
+.menu2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(143, 4, 4);
+}
+#btn-menu{
+    display: none;
+}
+.lab2{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(143, 4, 4);
+}
+
+
+.menu2 a{
+    display: block;
+    padding:15px 20px; 
+    background-color: rgb(143, 4, 4);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+
+
+.a2{
+    background-color: rgb(143, 4, 4);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+
+
+.img{
+ padding: 0;
+ margin: 0 ;
+ width: 100%;
+ height: 500px;
+background-image: url(pesca.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.a1{
+    padding-top: 30px;
+     
+}
+.row{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+    
+}
+.col{
+    border-radius: 10%;
+    margin: 25px;
+}
+.img2{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+   background-image: url(pa.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   }
+
+.a3{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.letra{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: red;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.493);
+}
+.p{
+    height: 15px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    height: 200px;
+    justify-content: space-around;
+    color: white;
+}
+@media screen and (max-width:444px){
+    .o{
+        display: none;
+    }
+    .x{
+        display: none;
+    }
+    .z{
+        display: none;
+    }
+    
+    .log{
+        display: none;
+    }
+    .des{
+        display: none;
+    }
+    .ti{
+        display: none; 
+    }
+}
+    
+@media screen and (max-width:492px){
+    .navbar comp{
+        display: none;
+    }
+    .z{
+        display: none;
+    }
+    .x{
+        display: none;
+    }
+    
+    .log{
+        display: none;
+    }
+    .des{
+        display: none;
+    }
+    .ti{
+        display: none; 
+    }
+    .z{
+        display: none;   
+    }
+}
+
+@media screen and (max-device-width:763px){
+    .o{
+        display: none;
+    }
+    
+    .x{
+        display: none;
+    }
+    .z{
+        display: none;
+    }
+    
+    
+    .des{
+        display: none;
+    }
+
+    .menu{
+     width: 100%;
+     
+    }
+    .row{
+        width: 60%;
+        height: 70%;
+    }
+    
+    .img{
+        width: 100%;
+        height: 400px;
+       
+    }
+    .a2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (max-device-width:995px){
+    .comp{
+        display: none;
+    }
+    .x{
+        display: none;
+    }
+    .z{
+        display: none;
+    }
+    .menu{
+     width: 100%;
+     
+    }
+    .row{
+        width: 90%;
+        
+    }
+    
+    .img{
+        width: 100%;
+        
+       
+    }
+    .a2{
+        
+        width: 100%;
+    }
+}
+@media screen and (max-device-width:1197px){
+    .comp{
+        display: none;
+    }
+    .p{
+        display: none;
+    }
+    .x{
+        display: none;
+    }
+    .z{
+        display: none;
+    }
+    .menu{
+     width: 100%;
+     
+    }
+    
+    .img{
+        width: 100%;
+        
+       
+    }
+    .a2{
+        
+        width: 100%;
+    }
+}
+@media screen and (max-device-width:1325px){
+    .comp{
+        display: none;
+    }
+    .menu{
+     width: 100%;
+     
+    }
+    
+    .img{
+        width: 100%;
+        
+       
+    }
+    .a2{
+        
+        width: 100%;
+    }
+}
